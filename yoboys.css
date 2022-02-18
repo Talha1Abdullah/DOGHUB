@@ -1,0 +1,162 @@
+
+#title{
+    background-color: #ff4c68;
+    
+}
+h1{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    size: 4rem;
+    line-height: 2; 
+    padding-left: 3%;
+    margin-top: 5%;
+}
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+p{
+    color: grey;
+}
+.container-fluid{
+    padding-top: 3%  ;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+}
+
+/* buttons */
+
+.Download-button{
+    margin: 5% 3% 0 3%;
+}
+.tittle-image{
+    
+    transform: rotate(25deg);
+    width: 22%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    
+} 
+/* navbar */
+
+.navbar-brand{
+    margin-left: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.navbar{
+    padding-bottom:2% ;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Montserrat', serif;
+}
+ /* features */
+ #features{
+     padding: 7% 10%;
+     position: relative;
+     background-color: #fff;
+ }
+ .features-elements{
+     text-align: center;
+     padding: 5%;
+ }
+ h3{
+    font-weight: bolder;
+ }
+ .icon{
+     color: #ef8172;
+     margin-bottom:  1rem; ;
+ }
+ .icon:hover{
+     color: red;
+ }
+
+ /* testimonials */
+
+ #testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;;
+
+ }
+ .testimonial-image{
+     width: 10%;
+     border-radius: 100px;
+     margin: 20px;
+ }
+
+
+
+ /* press */
+ #press{
+     text-align: center;
+     background-color: #ef8172;
+     padding-bottom: 3rem;
+ }
+
+ .press-logo{
+     margin: 10px 20px 0px;
+     width: 15%;
+ }
+ .testimonial-text{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+ }
+ .carousel-item{
+ padding: 7% 10%;
+}
+/* price */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+@media ( max-width:1028px)
+ {
+
+.container-fluid{
+    text-align: center;
+}
+    .tittle-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    
+}
+
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+    
+}
+.cta-h3{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+/* footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.social-icons{
+    margin: 20px 10px;
+}
